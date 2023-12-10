@@ -49,6 +49,3 @@ let rec solve file sum =
   (* End of file, return result *)
   | exception End_of_file -> sum
 ;;
-
-
-print_endline (string_of_int (solve(open_in file) 0))
